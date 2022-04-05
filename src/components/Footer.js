@@ -17,7 +17,7 @@ function Footer() {
                 <li className="footer-item">
                 <a href="https://www.youtube.com/channel/UCbcm1mHHID3JNDLMmASIRMA"><FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon></a>
                 </li>
-                <li className="footer-item">
+                <li className="footer-item vk">
                 <a href="http://www.vk.com/avatar_polyglot"><FontAwesomeIcon icon={faVk}></FontAwesomeIcon></a>
                 </li>
                 <li className="footer-item">
