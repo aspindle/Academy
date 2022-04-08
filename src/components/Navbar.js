@@ -37,7 +37,7 @@ function Navbar() {
             {(screenWidth > 768 ) && (
                 <ul className="nav-links">
                     <li className="nav-item">
-                        <a href="#about">About</a>
+                        <a href="/about">About</a>
                     </li>
                     <li className="nav-item">
                         <Link to="/blog">Blog</Link>
@@ -64,7 +64,7 @@ function Navbar() {
         {(toggleMenu && screenWidth < 768) && (
                 <ul className="nav-links">
                     <li className="nav-item">
-                        <a href="#about">About</a>
+                        <a href="/about">About</a>
                     </li>
                     <li className="nav-item">
                         <Link to="/blog">Blog</Link>
