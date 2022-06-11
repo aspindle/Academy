@@ -10,7 +10,7 @@ export default function Donate() {
         <div id="donate">
 
         <h2>CashApp:</h2><p> $alexspindler</p>
-        <img src={cashapp}></img>
+        <img src={cashapp} alt="cashapp"></img>
         
         {/*<p>According to my rudimentary search, I must distinguish that you are not making a donation to me, but rather a gift to me. The difference 
             being that you can not write it off on your taxes. Considering I'm only accepting cryptocurrency, I'm not sure if this applies; but I wanted to 
