@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faYoutube, faVk, faGithub, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faYoutube, faFacebook, faGithub, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 
 function Footer() {
@@ -18,7 +18,7 @@ function Footer() {
                 <a href="https://www.youtube.com/channel/UCbcm1mHHID3JNDLMmASIRMA?sub_confirmation=1"><FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon></a>
                 </li>
                 <li className="footer-item vk">
-                <a href="http://www.vk.com/avatar_polyglot"><FontAwesomeIcon icon={faVk}></FontAwesomeIcon></a>
+                <a href="https://www.facebook.com/alex.spindler.50/"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></a>
                 </li>
                 <li className="footer-item">
                 <a href="http://www.github.com/aspindle"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a>

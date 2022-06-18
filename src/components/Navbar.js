@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import logo from '../../src/logo.png';
 import React, {useState, useEffect} from 'react';
+import '../styles/two_bar.scss';
+
 
 function Navbar() {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -52,12 +54,24 @@ function Navbar() {
                 </ul>
             )}
             
-
+            
+            {/* old hamburger menu
             <span onClick={toggleNav} className="navTrigger" >
                     <i></i>
                     <i></i>
                     <i></i>
-            </span>
+            </span>*/}
+
+            
+            <div onClick={toggleNav} class="menu-icon navTrigger">
+                <input class="menu-icon__cheeckbox" type="checkbox" />
+                <div>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+
             </div>
         </nav>
 
