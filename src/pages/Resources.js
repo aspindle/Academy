@@ -166,6 +166,17 @@ export default function Resources() {
             Scientific Notation
         <br />
 
+        {/*------------ */}
+
+        <a href="magnet:?xt=urn:btih:f710363e96c759962fd5d67edff792535f56ebd0&dn=metric-system.mkv&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=https%3a%2f%2ftracker.iriseden.fr%3a443%2fannounce&tr=http%3a%2f%2fbt1.archive.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.eu.org%3a6969%2fannounce&tr=http%3a%2f%2ftracker.ipv6tracker.ru%3a80%2fannounce&tr=udp%3a%2f%2fbt.oiyo.tk%3a6969%2fannounce&tr=udp%3a%2f%2fretracker.hotplug.ru%3a2710%2fannounce&tr=udp%3a%2f%2ftracker6.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=http%3a%2f%2ft.nyaatracker.com%3a80%2fannounce&tr=udp%3a%2f%2fopen.xxtor.com%3a3074%2fannounce&tr=https%3a%2f%2ft.btcland.xyz%3a443%2fannounce&tr=udp%3a%2f%2fcode2chicken.nl%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.kuroy.me%3a443%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.dix.tf%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=https%3a%2f%2ftr.fuckbitcoin.xyz%3a443%2fannounce&tr=https%3a%2f%2ftr.burnabyhighstar.com%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=https%3a%2f%2ft1.tokhmi.xyz%3a443%2fannounce&tr=udp%3a%2f%2ftracker.birkenwald.de%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969&tr=http%3a%2f%2ftracker.bt4g.com%3a2095%2fannounce&tr=udp%3a%2f%2fipv6.tracker.monitorit4.me%3a6969%2fannounce&tr=https%3a%2f%2ftr.torland.ga%3a443%2fannounce&tr=udp%3a%2f%2ftracker.sylphix.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.beeimg.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.cyberia.is%3a6969%2fannounce&tr=https%3a%2f%2ftracker.loligirl.cn%3a443%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.cf%3a443%2fannounce&tr=https%3a%2f%2ftrackme.theom.nz%3a443%2fannounce&tr=http%3a%2f%2fbt2.archive.org%3a6969%2fannounce&tr=https%3a%2f%2ftr.doogh.club%3a443%2fannounce&tr=http%3a%2f%2fbuny.uk%3a6969%2fannounce&tr=https%3a%2f%2ftr.highstar.shop%3a443%2fannounce">
+            <img src={mag} className="mag" alt="magnet link"/>
+        </a>
+        <a href="https://youtu.be/eChGJU33g_k">
+            <img src={tub} className="tub" alt="youtube link"/>
+        </a>
+            The Metric System
+        <br />
+
         
 
          {/*------------ */}
