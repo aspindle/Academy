@@ -12,7 +12,6 @@ export default function Blog() {
         <br />
         <a href="https://docs.google.com/document/d/1Xu0NMSasV6-XCsrdHGqUaokclvnWWDViLrzdO1kQwfk/edit?usp=sharing">2022 Goals</a>
         <br />
-        <a href="https://docs.google.com/document/d/1eYh-BM7t8aD7kUNt-KO16UibQ8tR89ualzpDDOLLPi0/edit?usp=sharing">The Great American Identity Crisis - A Response</a>
         </>
     )
 }
