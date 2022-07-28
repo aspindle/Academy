@@ -10,7 +10,7 @@ export default function Blog() {
         <br />
         <a href="https://docs.google.com/document/d/1_Mu392CzJ7lmZg-PQ3br3ZxXzCbIN6y3To-EAXGBVlE/edit?usp=sharing">Math in Rome</a>
         <br />
-        <a href="https://docs.google.com/document/d/1Xu0NMSasV6-XCsrdHGqUaokclvnWWDViLrzdO1kQwfk/edit?usp=sharing">2022 Goals</a>
+        <a href="https://docs.google.com/document/d/1Xu0NMSasV6-XCsrdHGqUaokclvnWWDViLrzdO1kQwfk/edit?usp=sharing">Goals</a>
         <br />
         </>
     )
