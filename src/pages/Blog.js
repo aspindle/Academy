@@ -16,6 +16,8 @@ export default function Blog() {
         <br />
         <a href="https://docs.google.com/document/d/16UtD1-13AHWUUAywWaW--OB_L2l--SoX/edit?usp=sharing&ouid=102108365647779910091&rtpof=true&sd=true">The Apollo Controversy - AP US History Final Research Essay (2013)</a>
         <br />
+        <a href="https://www.dropbox.com/s/9s3dcnh5cwt9b73/Essay%202%20Final%20Draft.docx?dl=0">Essay on The Penultimate Truth and Society of the Spectacle (2015)</a>
+        <br />
         <a href="https://docs.google.com/document/d/1_Mu392CzJ7lmZg-PQ3br3ZxXzCbIN6y3To-EAXGBVlE/edit?usp=sharing">Math in Rome (2015)</a>
         <br />
         <a href="https://dogebook.netlify.app/">Dogebook (2021)</a>
