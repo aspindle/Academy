@@ -6,6 +6,8 @@ export default function Blog() {
         <>
         <Link to="/">Back</Link>
         <h1>Blog</h1>
+        <a href="phantasmagoricaluser.blogspot.com">Man to Monkey (2011)</a>
+        <br />
         <a href="https://docs.google.com/document/d/1MC6Byz5m-GtigwsfVtnOg5EXPs7IBktm/edit?usp=sharing&ouid=102108365647779910091&rtpof=true&sd=true">AP Chemistry Spring Project (2012)</a>
         <br />
         <a href="https://docs.google.com/document/d/18lHsKV0ZF7JKjSAXw48vsXq_KOwvYSor/edit?usp=sharing&ouid=102108365647779910091&rtpof=true&sd=true">Eagle Scout Project Report (2013)</a>
