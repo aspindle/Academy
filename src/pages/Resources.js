@@ -14,6 +14,7 @@ export default function Resources() {
             TI 84 Calculator ROM</a>*/}
         
         <br />
+        <h3>Videos I've Made</h3>
         <a href="magnet:?xt=urn:btih:12d12d35a45e2142b6a698c1b9a8447768e712d5&dn=SpindlerAcademyExampleVideo.mkv&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://tracker.openbittorrent.com:6969">
             <img src={mag} className="mag" alt="magnet link"/>
         </a>
@@ -177,7 +178,7 @@ export default function Resources() {
             The Metric System
         <br />
 
-        
+        <h3>Other Content You Might Enjoy (NOT made by me)</h3>
 
          {/*------------ */}
          <br />
@@ -210,6 +211,17 @@ export default function Resources() {
             <img src={tub} className="tub" alt="youtube link"/>
         </a>
             Machine Learning (UCSD)
+        <br />
+
+         {/*------------ */}
+
+         <a href="https://www.spindleracademy.com">
+            <img src={mag} className="mag hidden" alt="magnet link"/>
+        </a>
+        <a href="https://www.youtube.com/playlist?list=PL22J3VaeABQD_IZs7y60I3lUrrFTzkpat">
+            <img src={tub} className="tub" alt="youtube link"/>
+        </a>
+            The Psychological Significance of the Biblical Stories: Genesis (Jordan B Peterson)
         <br />
 
          {/*------------ */}

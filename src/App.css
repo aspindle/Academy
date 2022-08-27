@@ -11,7 +11,9 @@
 .mag {
   margin-left: 20px;
 }
-
+.hidden {
+  opacity: 0;
+}
 .container {
   display: flex;
   justify-content: center;
