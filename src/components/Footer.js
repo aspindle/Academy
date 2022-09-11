@@ -12,10 +12,10 @@ function Footer() {
             </div>
             <ul className="footer-links">
                 <li className="footer-item">
-                <a href="http://www.twitter.com/avatar_polyglot"> <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a>
+                <a href="https://www.youtube.com/channel/UCbcm1mHHID3JNDLMmASIRMA?sub_confirmation=1"><FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon></a>
                 </li>
                 <li className="footer-item">
-                <a href="https://www.youtube.com/channel/UCbcm1mHHID3JNDLMmASIRMA?sub_confirmation=1"><FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon></a>
+                <a href="http://www.twitter.com/avatar_polyglot"> <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a>
                 </li>
                 <li className="footer-item vk">
                 <a href="https://www.facebook.com/alex.spindler.50/"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></a>
