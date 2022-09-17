@@ -22,6 +22,8 @@ export default function Blog() {
         <br />
         <a href="https://dogebook.netlify.app/">Dogebook (2021)</a>
         <br />
+        <a href="https://youtu.be/2qQ1M0sTAEY">Alaska Cruise Vlog (2022)</a>
+        <br />
         {/*
         <a href="https://link.medium.com/cQzeBpuPatb">On Death... (2022)</a>
         <br /> */}
