@@ -24,7 +24,7 @@ function Footer() {
                 <a href="http://www.github.com/aspindle"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a>
                 </li>
                 <li className="footer-item">
-                <a href="http://www.instagram.com/alex_spindier"><FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></a>
+                <a href="http://www.instagram.com/spindleracademy"><FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></a>
                 </li>
                 <li className="footer-item">
                 <a href="http://www.linkedin.com/in/alex-spindler"><FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon></a>

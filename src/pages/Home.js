@@ -11,8 +11,6 @@ export default function Home() {
         <p>Welcome to Spindler Academy!</p> <br /> 
         <p>Here you can find Free Educational Content for Everyone. </p>
         <br />
-        <h2>Let's Learn!</h2>
-        <br />
         <p>Follow me on social media below!</p>
         <br />
         
