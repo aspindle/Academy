@@ -13,9 +13,7 @@ export default function Home() {
         <br />
         <p>Follow me on social media below!</p>
         <br />
-        
         <Footer/>
-      
     </div>
     )
 }
