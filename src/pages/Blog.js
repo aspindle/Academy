@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 export default function Blog() {
     return (
         <>
-        <Link to="/">Back</Link>
+        <Navbar/>
         <h1>Blog</h1>
         <a href="https://www.dropbox.com/s/6dc5k0w5crcuttp/IMG_2332.mov?dl=0">Bending Animation (before 2010)</a>
         <br />

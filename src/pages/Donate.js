@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import cashapp from '../imgs/5oage2u4.bmp';
+import Navbar from '../components/Navbar';
 
 export default function Donate() {
     return (
         <>
-        <Link to="/">Back</Link>
+        <Navbar/>
         <h1>Donate (actually Gift)</h1>
         <div id="donate">
 

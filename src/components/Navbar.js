@@ -30,11 +30,11 @@ function Navbar() {
 
     return (
         <>
-
+        <header className="App-header">
         <nav id="myTopnav" className="navbar">
             <div className="container">
             
-            <img src={logo} className="logo" alt="Spindler Academy logo"/>
+            <a href="/" className='logo-a'><img src={logo} className="logo" alt="Spindler Academy logo"/></a>
             
             {(screenWidth > 768 ) && (
                 <ul className="nav-links">
@@ -91,8 +91,8 @@ function Navbar() {
                     </li>
                     
                 </ul>
-            )}
-
+        )}
+        </header>
         </>
     )
 }

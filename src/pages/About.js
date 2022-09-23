@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 export default function About() {
     return (
         <>
-        <Link to="/">Back</Link>
+        <Navbar/>
         <h1>About</h1>
-        <p>Alex is too lazy to write an about page at this time. Please click the back button above.</p>
+        <p>Alex is too lazy to write an about page at this time.</p>
         </>
     )
 }
