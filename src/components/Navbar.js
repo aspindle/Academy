@@ -63,8 +63,8 @@ function Navbar() {
             </span>*/}
 
             
-            <div onClick={toggleNav} class="menu-icon navTrigger">
-                <input class="menu-icon__cheeckbox" type="checkbox" />
+            <div onClick={toggleNav} className="menu-icon navTrigger">
+                <input className="menu-icon__cheeckbox" type="checkbox" />
                 <div>
                     <span></span>
                     <span></span>

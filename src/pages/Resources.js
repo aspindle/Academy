@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import mag from '../imgs/icon-magnet.gif';
 import tub from '../imgs/icon-youtube.jpg';
 import Navbar from '../components/Navbar';
