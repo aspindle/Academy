@@ -1,5 +1,5 @@
 import React from 'react';
-import cashapp from '../imgs/5oage2u4.bmp';
+import cashapp from '../imgs/cashapp.jpeg';
 import Navbar from '../components/Navbar';
 
 export default function Donate() {
@@ -9,8 +9,8 @@ export default function Donate() {
         <h1>Donate (actually Gift)</h1>
         <div id="donate">
 
-        <h2>CashApp:</h2><p> $alexspindler</p>
-        <img src={cashapp} alt="cashapp"></img>
+        <h2>CashApp:</h2><p> $spindleracademy</p>
+        <img src={cashapp} width="350" height="350" alt="cashapp"></img>
         
         {/*<p>According to my rudimentary search, I must distinguish that you are not making a donation to me, but rather a gift to me. The difference 
             being that you can not write it off on your taxes. Considering I'm only accepting cryptocurrency, I'm not sure if this applies; but I wanted to 
