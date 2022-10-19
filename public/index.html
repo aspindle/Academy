@@ -10,6 +10,7 @@
 
       gtag('config', 'G-WC5ZWP4P3N');
     </script>
+    
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/logo400.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -40,6 +41,7 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -50,5 +52,120 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!--
+
+    <div id="hero">
+      <div id="output">
+        <div id="progressBar"></div>
+        
+      </div>
+      
+      <div id="status">
+        <div>
+          <span class="show-leech">Downloading </span>
+          <span class="show-seed">Seeding </span>
+          <code>
+           
+            <a id="torrentLink" href="https://webtorrent.io/torrents/sintel.torrent">sintel.torrent</a>
+          </code>
+          <span class="show-leech"> from </span>
+          <span class="show-seed"> to </span>
+          <code id="numPeers">0 peers</code>.
+        </div>
+        <div>
+          <code id="downloaded"></code>
+          of <code id="total"></code>
+          — <span id="remaining"></span><br/>
+          &#x2198;<code id="downloadSpeed">0 b/s</code>
+          / &#x2197;<code id="uploadSpeed">0 b/s</code>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/webtorrent@latest/webtorrent.min.js"></script>
+    <script src="http://momentjs.com/downloads/moment.min.js"></script>
+    
+    <script>
+      const { WebTorrent } = window
+      
+      const client = new WebTorrent()
+
+      // HTML elements
+      const $body = document.body
+      const $progressBar = document.querySelector('#progressBar')
+      const $numPeers = document.querySelector('#numPeers')
+      const $downloaded = document.querySelector('#downloaded')
+      const $total = document.querySelector('#total')
+      const $remaining = document.querySelector('#remaining')
+      const $uploadSpeed = document.querySelector('#uploadSpeed')
+      const $downloadSpeed = document.querySelector('#downloadSpeed')
+
+        
+        //const torrentId = 'magnet:?xt=urn:btih:0e51cd9e0ac7bce92b1b6dbc28d5db081b534eef&dn=ping%20and%20standard%20deviation.mkv&tr=https%3a%2f%2ftracker.kuroy.me%3a443%2fannounce&tr=http%3a%2f%2fbt2.archive.org%3a6969%2fannounce&tr=https%3a%2f%2ft.btcland.xyz%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=http%3a%2f%2ft.nyaatracker.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.dix.tf%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.cyberia.is%3a6969%2fannounce&tr=http%3a%2f%2ftracker.ipv6tracker.ru%3a80%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=https%3a%2f%2ftracker.loligirl.cn%3a443%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=https%3a%2f%2ft1.tokhmi.xyz%3a443%2fannounce&tr=http%3a%2f%2fbt1.archive.org%3a6969%2fannounce&tr=udp%3a%2f%2fcode2chicken.nl%3a6969%2fannounce&tr=https%3a%2f%2ftr.burnabyhighstar.com%3a443%2fannounce&tr=udp%3a%2f%2ftracker.beeimg.com%3a6969%2fannounce&tr=udp%3a%2f%2fipv6.tracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.birkenwald.de%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=https%3a%2f%2ftr.torland.ga%3a443%2fannounce&tr=http%3a%2f%2fbuny.uk%3a6969%2fannounce&tr=https%3a%2f%2ftr.fuckbitcoin.xyz%3a443%2fannounce&tr=https%3a%2f%2ftr.highstar.shop%3a443%2fannounce&tr=http%3a%2f%2ftracker.bt4g.com%3a2095%2fannounce&tr=udp%3a%2f%2ftracker.moeking.eu.org%3a6969%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.cf%3a443%2fannounce&tr=udp%3a%2f%2fbt.oiyo.tk%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=https%3a%2f%2ftrackme.theom.nz%3a443%2fannounce&tr=udp%3a%2f%2fopen.xxtor.com%3a3074%2fannounce&tr=udp%3a%2f%2ftracker.sylphix.com%3a6969%2fannounce&tr=udp%3a%2f%2fretracker.hotplug.ru%3a2710%2fannounce&tr=udp%3a%2f%2ftracker6.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969&tr=https%3a%2f%2ftr.doogh.club%3a443%2fannounce&tr=https%3a%2f%2ftracker.iriseden.fr%3a443%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce'
+       // const torrentId = 'magnet:?xt=urn:btih:07053e0e31cecaa516053ec059a6f7dee5f108c9&dn=file-upload-concat.mp4&tr=udp%3a%2f%2ftracker6.lelux.fi%3a6969%2fannounce&tr=http%3a%2f%2fbt2.archive.org%3a6969%2fannounce&tr=https%3a%2f%2ftrackme.theom.nz%3a443%2fannounce&tr=http%3a%2f%2ft.nyaatracker.com%3a80%2fannounce&tr=https%3a%2f%2ftr.torland.ga%3a443%2fannounce&tr=udp%3a%2f%2ftracker.beeimg.com%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=https%3a%2f%2ftracker.kuroy.me%3a443%2fannounce&tr=https%3a%2f%2ftracker.loligirl.cn%3a443%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.cf%3a443%2fannounce&tr=https%3a%2f%2ft1.tokhmi.xyz%3a443%2fannounce&tr=https%3a%2f%2ftr.highstar.shop%3a443%2fannounce&tr=https%3a%2f%2ft.btcland.xyz%3a443%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=https%3a%2f%2ftr.fuckbitcoin.xyz%3a443%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.birkenwald.de%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.eu.org%3a6969%2fannounce&tr=udp%3a%2f%2fopen.xxtor.com%3a3074%2fannounce&tr=http%3a%2f%2ftracker.bt4g.com%3a2095%2fannounce&tr=udp%3a%2f%2ftracker.cyberia.is%3a6969%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=udp%3a%2f%2fipv6.tracker.monitorit4.me%3a6969%2fannounce&tr=https%3a%2f%2ftr.burnabyhighstar.com%3a443%2fannounce&tr=udp%3a%2f%2fbt.oiyo.tk%3a6969%2fannounce&tr=https%3a%2f%2ftracker.iriseden.fr%3a443%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=https%3a%2f%2ftr.doogh.club%3a443%2fannounce&tr=udp%3a%2f%2ftracker.sylphix.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2fcode2chicken.nl%3a6969%2fannounce&tr=udp%3a%2f%2fretracker.hotplug.ru%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=http%3a%2f%2ftracker.ipv6tracker.ru%3a80%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=http%3a%2f%2fbt1.archive.org%3a6969%2fannounce&tr=http%3a%2f%2fbuny.uk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969&tr=udp%3a%2f%2ftracker.dix.tf%3a6969%2fannounce'
+      //const torrentId = 'magnet:?xt=urn:btih:08ada5a7a6183aae1e09d831df6748d566095a10&dn=Sintel&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.empire-js.us%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com&ws=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2F&xs=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2Fsintel.torrent'
+      const torrentId = 'https://webtorrent.io/torrents/sintel.torrent'
+      client.add(torrentId, function (torrent) {
+          const file = torrent.files.find(function (file) {
+              return file.name.endsWith('.mp4')
+          })
+  
+          file.appendTo('#output')
+
+           // Trigger statistics refresh
+        torrent.on('done', onDone)
+        setInterval(onProgress, 500)
+        onProgress()
+
+        // Statistics
+        function onProgress () {
+          // Peers
+          $numPeers.innerHTML = torrent.numPeers + (torrent.numPeers === 1 ? ' peer' : ' peers')
+
+          // Progress
+          const percent = Math.round(torrent.progress * 100 * 100) / 100
+          $progressBar.style.width = percent + '%'
+          $downloaded.innerHTML = prettyBytes(torrent.downloaded)
+          $total.innerHTML = prettyBytes(torrent.length)
+
+          // Remaining time
+          let remaining
+          if (torrent.done) {
+            remaining = 'Done.'
+          } else {
+            remaining = moment.duration(torrent.timeRemaining / 1000, 'seconds').humanize()
+            remaining = remaining[0].toUpperCase() + remaining.substring(1) + ' remaining.'
+          }
+          $remaining.innerHTML = remaining
+
+          // Speed rates
+          $downloadSpeed.innerHTML = prettyBytes(torrent.downloadSpeed) + '/s'
+          $uploadSpeed.innerHTML = prettyBytes(torrent.uploadSpeed) + '/s'
+        }
+        function onDone () {
+          $body.className += ' is-seed'
+          onProgress()
+        }
+
+
+      })
+
+      // Human readable bytes util
+      function prettyBytes(num) {
+        const units = ['B', 'kB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB']
+        const neg = num < 0
+        if (neg) num = -num
+        if (num < 1) return (neg ? '-' : '') + num + ' B'
+        const exponent = Math.min(Math.floor(Math.log(num) / Math.log(1000)), units.length - 1)
+        const unit = units[exponent]
+        num = Number((num / Math.pow(1000, exponent)).toFixed(2))
+        return (neg ? '-' : '') + num + ' ' + unit
+      }
+
+      
+    </script>
+
+  -->
   </body>
 </html>
