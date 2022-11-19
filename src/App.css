@@ -25,7 +25,10 @@
 .logo-a {
   height: 200px;
 }
+.bdiv {
+  padding-left: 50px;
 
+}
 
 .navbar {
   
@@ -67,6 +70,7 @@ li a {
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
+ 
   
 }
 
