@@ -6,7 +6,7 @@ export default function About() {
         <>
         <Navbar/>
         <h1>About</h1>
-        <p>To be written later... Just know that Alex is currently working on ditching the shackles of YouTube...</p>
+        <p>To be written later... </p>
         </>
     )
 }

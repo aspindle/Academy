@@ -11,7 +11,7 @@ export default function Home() {
         <p>Free educational content for anyone who wants to learn. </p>
         <br />
         
-        <p>Follow me on social media below!</p>
+        <p>Other internet links below!</p>
         <br />
         <Footer/>
     </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faYoutube, faFacebook, faGithub, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import faOdysee from "../imgs/odysee.png";
 
 
 function Footer() {
@@ -28,6 +29,9 @@ function Footer() {
                 </li>
                 <li className="footer-item">
                 <a href="http://www.linkedin.com/in/alex-spindler"><FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon></a>
+                </li>
+                <li className="footer-item">
+                <a href="https://odysee.com/@avatar_alex:8"><img width="16" height="16" src={faOdysee} className="odysee" alt="odysee logo"/></a>
                 </li>
             </ul>
         
