@@ -282,7 +282,7 @@ export default function Resources() {
             The Psychological Significance of the Biblical Stories: Genesis (Jordan B Peterson)
         <br />
 
-        <h3>Lastly, other websites I think are worth visisting. </h3>
+        <h3>Lastly, other websites I think are worth visisting in no particular order. </h3>
         <br />
         <a href="https://buildshownetwork.com">https://buildshownetwork.com</a>
         <br />
@@ -290,7 +290,13 @@ export default function Resources() {
         <br />
         <a href="https://longislandaudit.com">https://longislandaudit.com</a>
         <br />
-        <a href="https://rossmanngroup.com">https://rossmanngroup.com</a>
+        <a href="https://rossmanngroup.com">https://rossmanngroup.com (Louis Rossman - Right to Repair)</a>
+        <br />
+        <a href="https://www.blueletterbible.org">https://www.blueletterbible.org</a>
+        <br />
+        <a href="http://pricecenterplaza.ucsd.edu">http://pricecenterplaza.ucsd.edu (UC Scam Diego)</a>
+        <br />
+        <a href="https://diysolarforum.com">https://diysolarforum.com (Will Prowse)</a>
         <br />
          {/*------------ */}
         
