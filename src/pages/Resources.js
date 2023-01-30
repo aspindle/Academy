@@ -310,6 +310,8 @@ export default function Resources() {
         <br />
         <a href="https://www.dailywire.com">https://www.dailywire.com</a>
         <br />
+        <a href="https://feross.org">https://feross.org (Feross Aboukhadijeh)</a>
+        <br />
          {/*------------ */}
         
         
