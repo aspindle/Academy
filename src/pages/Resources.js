@@ -302,6 +302,14 @@ export default function Resources() {
         <br />
         <a href="http://howthefouriertransformworks.com">http://howthefouriertransformworks.com (Mark Newman)</a>
         <br />
+        <a href="https://www.projectveritas.com/">https://www.projectveritas.com/</a>
+        <br />
+        <a href="https://www.prageru.com">https://www.prageru.com</a>
+        <br />
+        <a href="https://www.nbtv.media">https://www.nbtv.media (Naomi Brockwell)</a>
+        <br />
+        <a href="https://www.dailywire.com">https://www.dailywire.com</a>
+        <br />
          {/*------------ */}
         
         
