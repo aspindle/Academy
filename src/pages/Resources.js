@@ -312,6 +312,12 @@ export default function Resources() {
         <br />
         <a href="https://feross.org">https://feross.org (Feross Aboukhadijeh)</a>
         <br />
+        <a href="https://www.libsoftiktok.com">https://www.libsoftiktok.com</a>
+        <br />
+        <a href="https://babylonbee.com">https://babylonbee.com</a>
+        <br />
+        <a href="http://bittorrent.org">http://bittorrent.org</a>
+        <br />
          {/*------------ */}
         
         
