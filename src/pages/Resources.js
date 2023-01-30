@@ -282,11 +282,11 @@ export default function Resources() {
             The Psychological Significance of the Biblical Stories: Genesis (Jordan B Peterson)
         <br />
 
-        <h3>Lastly, other websites I think are worth visisting in no particular order. </h3>
+        <h3>Other websites I think are worth visisting in no particular order. </h3>
         <br />
-        <a href="https://buildshownetwork.com">https://buildshownetwork.com</a>
+        <a href="https://buildshownetwork.com">https://buildshownetwork.com (Matt Risinger & others)</a>
         <br />
-        <a href="https://timcast.com">https://timcast.com</a>
+        <a href="https://timcast.com">https://timcast.com (Tim Pool)</a>
         <br />
         <a href="https://longislandaudit.com">https://longislandaudit.com</a>
         <br />
@@ -297,6 +297,10 @@ export default function Resources() {
         <a href="http://pricecenterplaza.ucsd.edu">http://pricecenterplaza.ucsd.edu (UC Scam Diego)</a>
         <br />
         <a href="https://diysolarforum.com">https://diysolarforum.com (Will Prowse)</a>
+        <br />
+        <a href="https://www.videocopilot.net">https://www.videocopilot.net (Andrew Kramer)</a>
+        <br />
+        <a href="http://howthefouriertransformworks.com">http://howthefouriertransformworks.com (Mark Newman)</a>
         <br />
          {/*------------ */}
         
