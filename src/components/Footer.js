@@ -9,7 +9,7 @@ function Footer() {
         <div id="links" className="footerbar">
             
             <div className="verse">
-                    <p>For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life. - John 3:16</p>    
+                    <p>For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life. - <a href="https://www.blueletterbible.org/nkjv/jhn/3/16/t_conc_1000016">John 3:16</a></p>    
             </div>
             <ul className="footer-links">
                 <li className="footer-item">
