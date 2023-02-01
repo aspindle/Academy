@@ -316,6 +316,8 @@ export default function Resources() {
         <br />
         <a href="https://youtube-dl.org">https://youtube-dl.org</a>
         <br />
+        <a href="https://www.billboardchris.com">https://www.billboardchris.com</a>
+        <br />
          {/*------------ */}
         
         
