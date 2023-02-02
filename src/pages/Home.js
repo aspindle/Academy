@@ -9,7 +9,7 @@ export default function Home() {
         <Navbar/>
         <p>Welcome to Spindler Academy!</p> 
         <br /> 
-        <p>Free educational content for anyone who wants to learn. </p>
+        <p>Current website goals: Degoogle. Add more content. Dark theme.</p>
         <br />
         
         <p>Thanks for stopping by!</p>
