@@ -318,6 +318,10 @@ export default function Resources() {
         <br />
         <a href="https://www.billboardchris.com">https://www.billboardchris.com</a>
         <br />
+        <a href="https://web.archive.org">https://web.archive.org</a>
+        <br />
+        <a href="https://karilake.com">https://karilake.com/</a>
+        <br />
          {/*------------ */}
         
         
