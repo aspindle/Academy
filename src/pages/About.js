@@ -13,7 +13,7 @@ export default function About() {
         <br />
         <a href="https://en.wikipedia.org/wiki/Free_Speech_Flag" className='logo-a'><img src={free_speech} className="logo" alt="Freedom of Speech"/></a>
         <br />
-        <img src="http://pricecenterplaza.ucsd.edu/mjpg/video.mjpg" className="Camera" alt="UC Scam Diego Live Camera; if you are seeing this, probably because your browser is blocking an http connection" width="200"/>
+        <img src="http://pricecenterplaza.ucsd.edu/mjpg/video.mjpg" className="Camera" alt="UC Scam Diego Live Camera; if you are seeing this, your browser is blocking an http connection" width="200"/>
         </>
     )
 }
