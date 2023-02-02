@@ -246,7 +246,7 @@ export default function Resources() {
         <a href="https://www.youtube.com/playlist?list=PL-SStBoAJuw0vj8MgTFhY5y9wSFnjGbOB">
             <img src={tub} className="tub" alt="youtube link"/>
         </a>
-            Introduction to Cryptography (UCSD)
+            Introduction to Cryptography (UCSD, Mihir Bellare)
         <br />
 
          {/*------------ */}
@@ -257,7 +257,7 @@ export default function Resources() {
         <a href="https://www.youtube.com/playlist?list=PL1y1iaEtjSYiiSGVlL1cHsXN_kvJOOhu-">
             <img src={tub} className="tub" alt="youtube link"/>
         </a>
-            Web Security (Stanford)
+            Web Security (Stanford, Feross Aboukhadijeh)
         <br />
 
          {/*------------ */}
@@ -268,7 +268,7 @@ export default function Resources() {
         <a href="https://www.youtube.com/playlist?list=PLxQSlOe-wlgAG_A_6ES9hpD_2-gm1D-UY">
             <img src={tub} className="tub" alt="youtube link"/>
         </a>
-            Machine Learning (UCSD)
+            Machine Learning (UCSD, Sanjoy Dasgupta)
         <br />
 
          {/*------------ */}
@@ -284,43 +284,47 @@ export default function Resources() {
 
         <h3>Other websites I think are worth visisting in no particular order. </h3>
         <br />
-        <a href="https://buildshownetwork.com">https://buildshownetwork.com (Matt Risinger & others)</a>
+        <a href="https://buildshownetwork.com">Build Show Network (Matt Risinger & others)</a>
         <br />
-        <a href="https://timcast.com">https://timcast.com (Tim Pool)</a>
+        <a href="https://timcast.com">Timcast (Tim Pool)</a>
         <br />
-        <a href="https://longislandaudit.com">https://longislandaudit.com</a>
+        <a href="https://longislandaudit.com">Long Island Audit</a>
         <br />
-        <a href="https://rossmanngroup.com">https://rossmanngroup.com (Louis Rossman - Right to Repair)</a>
+        <a href="https://rossmanngroup.com">Louis Rossmann (Right to Repair)</a>
         <br />
-        <a href="https://diysolarforum.com">https://diysolarforum.com (Will Prowse)</a>
+        <a href="https://diysolarforum.com">DIY Solar (Will Prowse)</a>
         <br />
-        <a href="https://www.videocopilot.net">https://www.videocopilot.net (Andrew Kramer)</a>
+        <a href="https://www.videocopilot.net">Video Copilot (Andrew Kramer)</a>
         <br />
-        <a href="http://howthefouriertransformworks.com">http://howthefouriertransformworks.com (Mark Newman)</a>
+        <a href="http://howthefouriertransformworks.com">Fourier Transform (Mark Newman)</a>
         <br />
-        <a href="https://www.projectveritas.com/">https://www.projectveritas.com/</a>
+        <a href="https://www.projectveritas.com/">Project Veritas (James O’Keefe)</a>
         <br />
-        <a href="https://www.prageru.com">https://www.prageru.com</a>
+        <a href="https://www.prageru.com">PragerU (Dennis Prager)</a>
         <br />
-        <a href="https://www.nbtv.media">https://www.nbtv.media (Naomi Brockwell)</a>
+        <a href="https://www.nbtv.media">Naomi Brockwell (NBTV)</a>
         <br />
-        <a href="https://www.dailywire.com">https://www.dailywire.com</a>
+        <a href="https://www.dailywire.com">Daily Wire (Ben Shapiro & others)</a>
         <br />
-        <a href="https://feross.org">https://feross.org (Feross Aboukhadijeh)</a>
+        <a href="https://feross.org">Feross Aboukhadijeh (Webtorrent)</a>
         <br />
-        <a href="https://www.libsoftiktok.com">https://www.libsoftiktok.com</a>
+        <a href="https://www.libsoftiktok.com">Libs of Tiktok</a>
         <br />
-        <a href="https://babylonbee.com">https://babylonbee.com</a>
+        <a href="https://babylonbee.com">Babylon Bee</a>
         <br />
-        <a href="http://bittorrent.org">http://bittorrent.org</a>
+        <a href="http://bittorrent.org">Bittorrent</a>
         <br />
-        <a href="https://youtube-dl.org">https://youtube-dl.org</a>
+        <a href="https://youtube-dl.org">Youtube-dl</a>
         <br />
-        <a href="https://www.billboardchris.com">https://www.billboardchris.com</a>
+        <a href="https://www.billboardchris.com">Billboard Chris</a>
         <br />
-        <a href="https://web.archive.org">https://web.archive.org</a>
+        <a href="https://web.archive.org">Internet Archive</a>
         <br />
-        <a href="https://karilake.com">https://karilake.com/</a>
+        <a href="https://karilake.com">Kari Lake (Arizona)</a>
+        <br />
+        <a href="https://twitter.com/Cali_Insider">California Insider Twitter (Siyamak Khorrami) </a>
+        <br />
+        <a href="https://web.archive.org/web/20220922164329/https://classsed.com/">Classsed (Ahmed Hadjou)</a>
         <br />
          {/*------------ */}
         
