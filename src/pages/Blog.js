@@ -26,9 +26,11 @@ export default function Blog() {
             <br /><br />
             <a href="https://youtu.be/2qQ1M0sTAEY">Alaska Cruise Vlog (2022)</a>
             <br /><br />
+            <a href="https://alex-spindier.medium.com/on-death-d7a76df004b4">On Death (2022)</a>
+            <br /><br />
             <a href="https://docs.google.com/document/d/1-Qi8Xbvr3VRCVPROBmjJSXwkkN3olQlJKRYWtYLB7fE/edit?usp=sharing">Funny Memes (2023)</a>
             <br /><br />
-            <a href="https://docs.google.com/document/d/1qFQmY4tFTAlE-CYFtosyNiVqQoyMdib62P35A1ClUG4/edit?usp=sharing">"Big Tech" Hypocrisy</a>
+            <a href="https://docs.google.com/document/d/1qFQmY4tFTAlE-CYFtosyNiVqQoyMdib62P35A1ClUG4/edit?usp=sharing">"Big Tech" Hypocrisy (2023)</a>
             <br /><br />
             <a href="https://docs.google.com/document/d/11qA5EAtMH72luflTaVAydSjEc-e6a4sF-BB5M4WYqW4/edit?usp=sharing">Ideas and Plans for Spindler Academy</a>
             <br />

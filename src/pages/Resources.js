@@ -322,7 +322,7 @@ export default function Resources() {
         <br />
         <a href="https://karilake.com">Kari Lake (Arizona)</a>
         <br />
-        <a href="https://twitter.com/Cali_Insider">California Insider Twitter (Siyamak Khorrami) </a>
+        <a href="https://www.theepochtimes.com/c-california-insider">California Insider (Siyamak Khorrami) </a>
         <br />
         <a href="https://web.archive.org/web/20220922164329/https://classsed.com/">Classsed (Ahmed Hadjou)</a>
         <br />
