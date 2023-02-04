@@ -314,7 +314,7 @@ export default function Resources() {
         <br />
         <a href="http://bittorrent.org">Bittorrent</a>
         <br />
-        <a href="https://youtube-dl.org">Youtube-dl</a>
+        <a href="https://youtube-dl.org">Youtube-dl (Download Youtube video via Command Line)</a>
         <br />
         <a href="https://www.billboardchris.com">Billboard Chris</a>
         <br />
@@ -322,7 +322,7 @@ export default function Resources() {
         <br />
         <a href="https://karilake.com">Kari Lake (Arizona)</a>
         <br />
-        <a href="https://www.theepochtimes.com/c-california-insider">California Insider (Siyamak Khorrami) </a>
+        <a href="https://www.theepochtimes.com/c-california-insider">California Insider (Siyamak Khorrami)</a>
         <br />
         <a href="https://web.archive.org/web/20220922164329/https://classsed.com/">Classsed (Ahmed Hadjou)</a>
         <br />
@@ -332,12 +332,17 @@ export default function Resources() {
         <br />
         <a href="https://dineshdsouza.com/">Dinesh D'Souza (2000 mules)</a>
         <br />
+        <a href="https://dineshdsouza.com/">Dinesh D'Souza (2000 mules)</a>
+        <br />
+        <a href="https://jackhibbs.com">Jack Hibbs (Calvary Chapel Chino Hills Pastor)</a>
+        <br />
+        
          {/*------------ */}
         
         
        {/*<img src={tub} className="tub" alt="youtube link"/>
         <a href="https://www.youtube.com/watch?v=6F0pR-ANmXY&list=PLchkeZ4DkEwcUwOmNZiVh4nfxGaEcQ6Im">
-            Computer Graphics (UCSD)
+            Computer Graphics (UCSD) https://flux.sandydoo.me/
         </a>*/}
         </>
     )

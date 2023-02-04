@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import usa from '../../src/imgs/usa.png';
-import free_speech from '../../src/imgs/free_speech.png';
+import free_speech from '../../src/imgs/about/free_speech.png';
 
 export default function About() {
     return (
