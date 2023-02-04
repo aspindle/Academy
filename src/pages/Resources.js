@@ -326,6 +326,10 @@ export default function Resources() {
         <br />
         <a href="https://web.archive.org/web/20220922164329/https://classsed.com/">Classsed (Ahmed Hadjou)</a>
         <br />
+        <a href="http://whatisawoman.com">What is a Woman? (Matt Walsh)</a>
+        <br />
+        <a href="https://issa.house.gov">Darrell Issa (California's 48th Congressional District Congressman)</a>
+        <br />
          {/*------------ */}
         
         
