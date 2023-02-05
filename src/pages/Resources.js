@@ -332,8 +332,6 @@ export default function Resources() {
         <br />
         <a href="https://dineshdsouza.com/">Dinesh D'Souza (2000 mules)</a>
         <br />
-        <a href="https://dineshdsouza.com/">Dinesh D'Souza (2000 mules)</a>
-        <br />
         <a href="https://jackhibbs.com">Jack Hibbs (Calvary Chapel Chino Hills Pastor)</a>
         <br />
         

@@ -29,7 +29,7 @@ export default function Donate() {
         <img className="donateimg" src={nocash} alt="nocash" width="500"></img>
         <p>The fact that it says "Do not send cash" is particularly interesting because that seems <a href="https://www.federalreserve.gov/faqs/currency_12772.htm">illegal.</a> </p>
         <p>But don't take my word for it, just look at any dollar bill, it will say "THIS NOTE IS LEGAL TENDER FOR ALL DEBTS PUBLIC AND PRIVATE"</p>
-        <p>Thus, it is clear that California is violating <a href="https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title31-section5103&num=0&edition=prelim">federal law</a>, which is honestly a bigger fish than I was planning on frying by writing this. </p>
+        <p>Thus, it seems California is violating <a href="https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title31-section5103&num=0&edition=prelim">federal law</a>, which is honestly a bigger fish than I was planning on frying by writing this. </p>
         <p>To be frank, I wanted to talk about how there are pressure washing businesses currently operating in San Diego and how they are most likely unlicensed.</p>
         <p>I wanted to talk about the 4 years of journey-man experience that was required to get the license on top of whatever prerequisite training was needed.</p>
         <p>Instead I'm left with a nagging feeling that California has killed the American dream; I pray I'm wrong.</p>
