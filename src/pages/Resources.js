@@ -334,13 +334,17 @@ export default function Resources() {
         <br />
         <a href="https://jackhibbs.com">Jack Hibbs (Calvary Chapel Chino Hills Pastor)</a>
         <br />
+        <a href="https://answersingenesis.org">Answers in Genesis</a>
+        <br />
+        <a href="https://flux.sandydoo.me">Recreation of Apple's Drift Screensaver (Sander Melnikov)</a>
+        <br />
         
          {/*------------ */}
         
         
        {/*<img src={tub} className="tub" alt="youtube link"/>
         <a href="https://www.youtube.com/watch?v=6F0pR-ANmXY&list=PLchkeZ4DkEwcUwOmNZiVh4nfxGaEcQ6Im">
-            Computer Graphics (UCSD) https://flux.sandydoo.me/
+            Computer Graphics (UCSD) 
         </a>*/}
         </>
     )
